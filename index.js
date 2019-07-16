@@ -43,7 +43,6 @@ function iLoveTheBeatles(number) {
   do {
     let text = 'I love the Beatles!';
     emptyArr.push(text);
-    i--;
   } while(i < 15);
   
   return emptyArr;
