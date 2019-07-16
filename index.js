@@ -37,14 +37,14 @@ function johnLennonFacts(facts) {
 
 
 function iLoveTheBeatles(number) {
-  let iterate = number - 15;
+  let i = number;
   let emptyArr = [];
   
   do {
     let text = 'I love the Beatles!';
     emptyArr.push(text);
-    iterate--;
-  } while(iterate < 15);
+    i++;
+  } while(i < 15);
   
   return emptyArr;
 }
