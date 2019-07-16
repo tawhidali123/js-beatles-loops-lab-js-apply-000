@@ -37,7 +37,6 @@ function johnLennonFacts(facts) {
 
 
 function iLoveTheBeatles(number) {
-  let iterate = number;
   let i = 0;
   let emptyArr = [];
   
@@ -45,7 +44,7 @@ function iLoveTheBeatles(number) {
     let text = 'I love the Beatles!';
     emptyArr.push(text);
     i++;
-  } while(i < 15);
+  } while(i < number);
   
   return emptyArr;
 }
