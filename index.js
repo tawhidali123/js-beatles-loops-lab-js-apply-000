@@ -43,8 +43,8 @@ function iLoveTheBeatles(number) {
   do {
     let text = 'I love the Beatles!';
     emptyArr.push(text);
-    i++
-  } while(i > 0 || number < 15);
+    i++;
+  } while(number < 15);
   
   return emptyArr;
 }
