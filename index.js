@@ -44,7 +44,7 @@ function iLoveTheBeatles(number) {
     let text = 'I love the Beatles!';
     emptyArr.push(text);
     i--;
-  } while(i > 15);
+  } while(15 > i);
   
   return emptyArr;
 }
